@@ -75,14 +75,15 @@ export default class Home extends Component {
                                     <Card.Title>Focus on Front-end Web Development</Card.Title>
                                 </Card.Header>
                                 <Card.Body>
-                                    <Card.Text>With professional experience in graphic design, I take advantage of the React's efficency to design stylish websites that are a pleasure for the user to navigate.</Card.Text>
-                                    <Card.Text>I invite you to browse my project section below where you'll find apps and websites constructed using:</Card.Text>
+                                    <Card.Text>Using my professional experience in graphic design, I take advantage of the React's efficency to produce stylish websites that are a pleasure for the user to navigate.</Card.Text>
+                                    <Card.Text>I invite you to browse my <Link smooth to="#projects-section">project section</Link> below where you'll find apps and websites constructed using:</Card.Text>
                                     <ul>
                                         <li>React</li>
-                                        <li>Axios</li>
                                         <li>Bootstrap</li>
-                                        <li>Various methods for reaching out to APIs</li>
+                                        <li>Axios</li>
+                                        <li>Firebase</li>
                                     </ul>
+                                    <Card.Text className="d-none d-md-block d-xl-block d-sm-none">All projects have been deployed to <a href="https://github.com/AndrewJFleming">GitHub</a> where visitors can view the source-code.</Card.Text>
                                 </Card.Body>
                             </Card>
                             <Card className="col-sm-4 col-md-3 col-lg-6 bg-primary special-card">
