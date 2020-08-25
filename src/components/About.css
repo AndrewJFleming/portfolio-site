@@ -1,0 +1,28 @@
+.about-container {
+  margin-top: 40px;
+  margin-bottom: 0;
+  height: 100vh;
+}
+
+.about-profile-pic {
+  float: left;
+  max-width: 300px;
+  margin: 0 1em 1em 0;
+}
+
+@media only screen and (max-width: 960px) {
+  .list {
+    clear: both;
+  }
+  .about-profile-pic {
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .about-profile-pic {
+    float: none;
+    max-width: 100%;
+    margin: 0 0 1em 0;
+  }
+}

@@ -1,0 +1,30 @@
+.modal-container {
+  position: fixed;
+  top: 10%;
+  right: 10%;
+  bottom: 10%;
+  left: 10%;
+  z-index: 99;
+}
+
+.modal-wrapper {
+  max-height: 80vh;
+  margin: auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(127, 127, 127, 0.3);
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.title-padding {
+  padding-bottom: 20px;
+}
+
+.text-padding {
+  padding-top: 20px;
+}
+
+.demo-gif {
+  max-width: 100%;
+}
