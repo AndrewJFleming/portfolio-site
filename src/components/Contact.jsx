@@ -58,7 +58,7 @@ export default class Contact extends Component {
                 <div className="banner-container">
                     <div className="hero-text">
                         <h1>Send me a message</h1>
-                        <h3>let's set you up with a beautiful website</h3>
+                        <h3>let's set you up with a stunning website</h3>
                     </div>
                         <img src="assets/portrait-banner.jpg" className="banner-image"/>
                 </div>
@@ -72,7 +72,7 @@ export default class Contact extends Component {
 
                                 </Card.Header>
                                 <Card.Body className="d-flex">
-                                    <ul className="mx-auto">
+                                    <ul className="mx-auto mb-0">
                                         <li>
                                             <h5><a className="" href="mailto:aflemi1@gmail.com">aflemi1@gmail.com</a></h5>                                
                                         </li>
@@ -131,7 +131,7 @@ export default class Contact extends Component {
                         </Col> */}
                         <Col xs={12} sm={5} md={4} className="d-none d-sm-block contact-sidebar">
                             <h4>Whatever your design needs may be...</h4>
-                            <p>Are you looking modernize or have maintenance done on an existing website? Perhaps you need something brand-new, built from the ground up. I can help, whatever your web-design needs may be.</p>
+                            <p>Are you looking modernize or have maintenance done on an existing website? Perhaps you have a vision of something new and need it built from the ground up? I can help, whatever your web-design needs may be.</p>
                         </Col>
                         {/* <Col xs={12} sm={5} md={4} className="d-none d-sm-block">
                             <Card className="bg-primary p-2">

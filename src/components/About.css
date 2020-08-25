@@ -4,6 +4,10 @@
   height: 100vh;
 }
 
+.about-card:hover {
+  transform: scale(1.00);
+}
+
 .about-profile-pic {
   float: left;
   max-width: 300px;

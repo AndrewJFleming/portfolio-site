@@ -24,6 +24,12 @@
     color: #F8F8FF;
   }
 
+  .subtitle {
+    text-align: center;
+    margin: 0px auto 20px auto;
+    color: #F8F8FF;
+  }
+
   .cols {
     display: flex;
     flex-direction: row;

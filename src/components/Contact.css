@@ -27,8 +27,12 @@
     max-width: 52vw;
   }
 
+  .contact-card {
+    margin-top: 10px;
+  }
+
   .contact-card:hover {
-    transform: scale(1.00) !important;
+    transform: scale(1.00);
 }
 
   .contact-card a {
