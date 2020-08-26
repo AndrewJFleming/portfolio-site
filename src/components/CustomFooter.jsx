@@ -20,7 +20,7 @@ const CustomFooter = () => {
               <li><a className="link-unstyled" href="https://github.com/AndrewJFleming">GitHub</a></li>
               <li><a className="link-unstyled" href="https://www.linkedin.com/in/andrew-fleming-49916012a/">LinkedIn</a></li>
               <li><a className="link-unstyled" href="https://my.indeed.com/p/andrewf-57wmkef">Resume</a></li>
-              {/* <li><a className="link-unstyled" href="">Indeed</a></li> */}
+              <li><script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script></li>
             </ul>
           </Col>
         </Row>
